@@ -1,1 +1,108 @@
-Hello World
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="lfcs-homework-tasks">LFCS Homework Tasks</h1>
+<h2 id="user-creation-and-group-management">1. User creation and group management</h2>
+<hr />
+<h3 id="a.-create-five-users-usernames-should-be">a. Create five users, usernames should be:</h3>
+<ul>
+<li>janis</li>
+<li>ieva</li>
+<li>alex</li>
+<li>arturs</li>
+<li>bob</li>
+</ul>
+<h3 id="b.-create-group-named-project">b. Create group named &quot;project&quot;</h3>
+<h3 id="c.-add-the-five-users-to-the-group-named-project">c. Add the five users to the group named &quot;Project&quot;</h3>
+<h3 id="d.-set-the-password-for-all-five-user-accounts-to-expire-in-one-month">d. Set the password for all five user accounts to expire in one month</h3>
+<h3 id="e.-change-the-password-for-two-of-the-users.">e. Change the password for two of the users.</h3>
+<hr />
+<h2 id="directory-and-file-permissions">2. Directory and file permissions</h2>
+<hr />
+<blockquote>
+<h3>a. Create directory /home/projects</h3>
+</blockquote>
+<blockquote>
+<h3>b. Change the group for directory /home/projects so that it belongs to the &quot;projects&quot;</h3>
+</blockquote>
+<blockquote>
+<h3>c. Change permissions on /home/projects so that it has read/write access to any user in the group &quot;projects&quot;</h3>
+</blockquote>
+<blockquote>
+<h3>d. Change permissions on /home/projects so that it is not available to any other users.</h3>
+</blockquote>
+<blockquote>
+<h3>e. Change the owner of the /home/projects user to one of the five users created</h3>
+</blockquote>
+<hr />
+<h2 id="sudo">3. Sudo</h2>
+<hr />
+<h3 id="a.-allow-all-users-in-the-projects-group-to-have-root-access-using-sudo">a. Allow all users in the projects group to have root access using sudo</h3>
+<h3 id="b.-use-sudo-to-obtain-an-interactive-root-shell.">b. Use sudo to obtain an interactive root shell.</h3>
+<hr />
+<h2 id="basic-process-management">4. Basic Process Management</h2>
+<hr />
+<h3 id="a.-use-the-top-utility-to-view-all-of-the-running-processes-on-the-system">a. Use the 'top' utility to view all of the running processes on the system</h3>
+<h3 id="b.-kill-all-of-the-bash-processes.-this-might-log-you-out-of-the-system.-why-is-this">b. kill all of the bash processes. This might log you out of the system. Why is this?</h3>
+<h3 id="c.-reduce-the-priority-of-a-process">c. Reduce the priority of a process</h3>
+<h3 id="d.-increase-the-priority-of-a-process">d. Increase the priority of a process</h3>
+<hr />
+<h2 id="hostname-and-timezone">5. Hostname and timezone</h2>
+<hr />
+<h3 id="a.-use-hostnamectl-to-set-the-hostname-of-the-system-to-linuxtraining">a. Use hostnamectl to set the hostname of the system to LinuxTraining</h3>
+<h3 id="b.-change-the-timezone-to-europeriga">b. Change the timezone to Europe/Riga</h3>
+<h3 id="c.-synchronise-the-system-time-with-the-remote-ntp-server-3.lv.pool.ntp.org">c. Synchronise the system time with the remote NTP server 3.lv.pool.ntp.org</h3>
+<hr />
+<h2 id="package-management">6. Package Management</h2>
+<h3 id="a.-upgrade-all-packages-which-exist-on-the-system-using-yum">a. Upgrade all packages which exist on the system using yum</h3>
+<ul>
+<li>Install the package 'tmux'</li>
+<li>Remove the package 'tmux'</li>
+</ul>
+<h3 id="b.-find-which-installed-package-has-provided-the-following-files-using-the-rpm-utility">b. Find which installed package has provided the following files using the rpm utility</h3>
+<ul>
+<li>/usr/bin/grep</li>
+<li>/usr/bin/yum</li>
+<li>/usr/bin/ls</li>
+</ul>
+<h3 id="c.-download-the-following-package-using-wget">c. download the following package using wget</h3>
+<p><a href="https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-alpha.14/powershell-6.0.0_alpha.14-1.el7.centos.x86_64.rpm">https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-alpha.14/powershell-6.0.0_alpha.14-1.el7.centos.x86_64.rpm</a></p>
+<h3 id="d.-install-the-package-using-the-rpm-utility">d. Install the package using the rpm utility</h3>
+<h3 id="e.-this-package-requires-a-prerequisite-package.-find-out-how-to-resolve-this-dependency-issue-by-installing-the-prerequisite.">e. This package requires a prerequisite package. Find out how to resolve this dependency issue by installing the prerequisite.</h3>
+<h3 id="f.-use-yum-to-find-which-package-provides-the-following-file-nmap">f. Use yum to find which package provides the following file: nmap</h3>
+<h3 id="g.-use-rpm--qd-to-find-the-documentation-available-for-a-utility-for-example-grep">g. Use rpm -qd to find the documentation available for a utility, for example, grep</h3>
+<hr />
+<h2 id="backup-using-tar-and-gzip">7. Backup using tar and gzip</h2>
+<h3 id="a.-backup-all-files-on-the-system-to-the-directory-homebackupbackup.tar-using-the-tar-utility">a. Backup all files on the system to the directory /home/backup/backup.tar using the tar utility</h3>
+<h3 id="b.-preserve-all-permissions-for-files">b. Preserve all permissions for files</h3>
+<h3 id="c.-compress-the-homebackupbackup.tar-using-gzip">c. Compress the /home/backup/backup.tar using gzip</h3>
+<hr />
+<h2 id="using-cron-the-schedule-automatic-jobs">8. Using Cron the schedule automatic jobs</h2>
+<hr />
+<h3 id="a.-schedule-an-automatic-backup-job-using-cron-which-backs-up-all-the-files-to-homebackupbackup.tar">a. Schedule an automatic backup job using cron which backs up all the files to /home/backup/backup.tar</h3>
+<hr />
+<h2 id="basic-service-management">9. Basic Service Management</h2>
+<hr />
+<h3 id="a.-install-the-package-httpd">a. Install the package: httpd</h3>
+<h3 id="b.-start-the-httpd-service-using-systemctl-start-httpd">b. Start the httpd service using: systemctl start httpd</h3>
+<h3 id="c.-use-systemctl-to-observe-if-httpd.service-is-running">c. Use systemctl to observe if httpd.service is running</h3>
+<h3 id="d.-change-directory-to-etcsystemdsystem">d. Change directory to /etc/systemd/system</h3>
+<h3 id="e.-use-ls-to-view-the-targets-available">e. Use ls to view the targets available</h3>
+<h3 id="f.-use-systemctl-to-find-out-which-target-is-the-default">f. Use systemctl to find out which target is the default</h3>
+<h3 id="g.-change-directory-to-etcsystemdsystemmulti-user.target.wants">g. Change directory to /etc/systemd/system/multi-user.target.wants</h3>
+<h3 id="h.-stop-httpd.service-using-systemctl">h. stop httpd.service using systemctl</h3>
+<h3 id="i.-create-a-symlink-between-usrlibsystemdsystemhttpd.service-and-etcsystemdsystemmulti-user.target.wantshttpd.service">i. Create a symlink between /usr/lib/systemd/system/httpd.service and /etc/systemd/system/multi-user.target.wants/httpd.service</h3>
+<h3 id="j.restart-the-computer">j.Restart the computer</h3>
+<h3 id="h.-is-httpd-running-after-restart-if-so-why">h. is httpd running after restart? If so, why?</h3>
+<h3 id="i.-disable-the-httpd-service-from-starting-automatically-at-system-startup-using-systemctl">i. Disable the httpd service from starting automatically at system startup using systemctl</h3>
+<h3 id="j.-does-the-link-at-etcsystemdsystemmulti-user.target.wantshttpd.service-still-exist-why-or-why-not">j. Does the link at /etc/systemd/system/multi-user.target.wants/httpd.service still exist? why or why not?</h3>
+<hr />
+</body>
+</html>
