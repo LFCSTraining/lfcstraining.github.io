@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-03T13:25:30+00:00</updated><id>http://localhost:4000//</id><title type="html">LFCS Training</title><subtitle>This site provides linux training exercises 
+</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/02/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-02-03T13:06:48+00:00</published><updated>2017-02-03T13:06:48+00:00</updated><id>http://localhost:4000/jekyll/update/2017/02/03/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/02/03/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Bla</title><link href="http://localhost:4000/2017/02/03/bla.html" rel="alternate" type="text/html" title="Bla" /><published>2017-02-03T00:00:00+00:00</published><updated>2017-02-03T00:00:00+00:00</updated><id>http://localhost:4000/2017/02/03/bla</id><content type="html" xml:base="http://localhost:4000/2017/02/03/bla.html">&lt;p&gt;#hello&lt;/p&gt;</content><summary type="html">#hello</summary></entry><entry><title type="html">Homework Exercises 1</title><link href="http://localhost:4000/2017/02/03/Homework-Exercises-1.html" rel="alternate" type="text/html" title="Homework Exercises 1" /><published>2017-02-03T00:00:00+00:00</published><updated>2017-02-03T00:00:00+00:00</updated><id>http://localhost:4000/2017/02/03/Homework-Exercises-1</id><content type="html" xml:base="http://localhost:4000/2017/02/03/Homework-Exercises-1.html">&lt;h1 id=&quot;lfcs-homework-tasks&quot;&gt;LFCS Homework Tasks&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;user-creation-and-group-management&quot;&gt;User creation and group management&lt;/h2&gt;
+    &lt;hr /&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-create-five-users-usernames-should-be&quot;&gt;a. Create five users, usernames should be:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;janis&lt;/li&gt;
+  &lt;li&gt;ieva&lt;/li&gt;
+  &lt;li&gt;alex&lt;/li&gt;
+  &lt;li&gt;arturs&lt;/li&gt;
+  &lt;li&gt;bob&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;b-create-group-named-project&quot;&gt;b. Create group named “project”&lt;/h3&gt;
+
+&lt;h3 id=&quot;c-add-the-five-users-to-the-group-named-project&quot;&gt;c. Add the five users to the group named “Project”&lt;/h3&gt;
+
+&lt;h3 id=&quot;d-set-the-password-for-all-five-user-accounts-to-expire-in-one-month&quot;&gt;d. Set the password for all five user accounts to expire in one month&lt;/h3&gt;
+
+&lt;h3 id=&quot;e-change-the-password-for-two-of-the-users&quot;&gt;e. Change the password for two of the users.&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;directory-and-file-permissions&quot;&gt;Directory and file permissions&lt;/h2&gt;
+    &lt;hr /&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;a-create-directory-homeprojects&quot;&gt;a. Create directory /home/projects&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;b-change-the-group-for-directory-homeprojects-so-that-it-belongs-to-the--projects&quot;&gt;b. Change the group for directory /home/projects so that it belongs to the  “projects”&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;c-change-permissions-on-homeprojects-so-that-it-has-readwrite-access-to-any-user-in-the-group-projects&quot;&gt;c. Change permissions on /home/projects so that it has read/write access to any user in the group “projects”&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;d-change-permissions-on-homeprojects-so-that-it-is-not-available-to-any-other-users&quot;&gt;d. Change permissions on /home/projects so that it is not available to any other users.&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;e-change-the-owner-of-the-homeprojects-user-to-one-of-the-five-users-created&quot;&gt;e. Change the owner of the /home/projects user to one of the five users created&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;sudo&quot;&gt;Sudo&lt;/h2&gt;
+    &lt;hr /&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-allow-all-users-in-the-projects-group-to-have-root-access-using-sudo&quot;&gt;a. Allow all users in the projects group to have root access using sudo&lt;/h3&gt;
+
+&lt;h3 id=&quot;b-use-sudo-to-obtain-an-interactive-root-shell&quot;&gt;b. Use sudo to obtain an interactive root shell.&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;basic-process-management&quot;&gt;Basic Process Management&lt;/h2&gt;
+    &lt;hr /&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-use-the-top-utility-to-view-all-of-the-running-processes-on-the-system&quot;&gt;a. Use the ‘top’ utility to view all of the running processes on the system&lt;/h3&gt;
+
+&lt;h3 id=&quot;b-kill-all-of-the-bash-processes-this-might-log-you-out-of-the-system-why-is-this&quot;&gt;b. kill all of the bash processes. This might log you out of the system. Why is this?&lt;/h3&gt;
+
+&lt;h3 id=&quot;c-reduce-the-priority-of-a-process&quot;&gt;c. Reduce the priority of a process&lt;/h3&gt;
+
+&lt;h3 id=&quot;d-increase-the-priority-of-a-process&quot;&gt;d. Increase the priority of a process&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;hostname-and-timezone&quot;&gt;Hostname and timezone&lt;/h2&gt;
+    &lt;hr /&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-use-hostnamectl-to-set-the-hostname-of-the-system-to-linuxtraining&quot;&gt;a. Use hostnamectl to set the hostname of the system to LinuxTraining&lt;/h3&gt;
+
+&lt;h3 id=&quot;b-change-the-timezone-to-europeriga&quot;&gt;b. Change the timezone to Europe/Riga&lt;/h3&gt;
+
+&lt;h3 id=&quot;c-synchronise-the-system-time-with-the-remote-ntp-server-3lvpoolntporg&quot;&gt;c. Synchronise the system time with the remote NTP server 3.lv.pool.ntp.org&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;package-management&quot;&gt;Package Management&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-upgrade-all-packages-which-exist-on-the-system-using-yum&quot;&gt;a. Upgrade all packages which exist on the system using yum&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Install the package ‘tmux’&lt;/li&gt;
+  &lt;li&gt;Remove the package ‘tmux’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;b-find-which-installed-package-has-provided-the-following-files-using-the-rpm-utility&quot;&gt;b. Find which installed package has provided the following files using the rpm utility&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;/usr/bin/grep&lt;/li&gt;
+  &lt;li&gt;/usr/bin/yum&lt;/li&gt;
+  &lt;li&gt;/usr/bin/ls&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;c-download-the-following-package-using-wget&quot;&gt;c. download the following package using wget&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-alpha.14/powershell-6.0.0_alpha.14-1.el7.centos.x86_64.rpm&quot;&gt;https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-alpha.14/powershell-6.0.0_alpha.14-1.el7.centos.x86_64.rpm&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;d-install-the-package-using-the-rpm-utility&quot;&gt;d. Install the package using the rpm utility&lt;/h3&gt;
+
+&lt;h3 id=&quot;e-this-package-requires-a-prerequisite-package-find-out-how-to-resolve-this-dependency-issue-by-installing-the-prerequisite&quot;&gt;e. This package requires a prerequisite package. Find out how to resolve this dependency issue by installing the prerequisite.&lt;/h3&gt;
+
+&lt;h3 id=&quot;f-use-yum-to-find-which-package-provides-the-following-file-nmap&quot;&gt;f. Use yum to find which package provides the following file: nmap&lt;/h3&gt;
+
+&lt;h3 id=&quot;g-use-rpm--qd-to-find-the-documentation-available-for-a-utility-for-example-grep&quot;&gt;g. Use rpm -qd to find the documentation available for a utility, for example, grep&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;backup-using-tar-and-gzip&quot;&gt;Backup using tar and gzip&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-backup-all-files-on-the-system-to-the-directory-homebackupbackuptar-using-the-tar-utility&quot;&gt;a. Backup all files on the system to the directory /home/backup/backup.tar using the tar utility&lt;/h3&gt;
+
+&lt;h3 id=&quot;b-preserve-all-permissions-for-files&quot;&gt;b. Preserve all permissions for files&lt;/h3&gt;
+
+&lt;h3 id=&quot;c-compress-the-homebackupbackuptar-using-gzip&quot;&gt;c. Compress the /home/backup/backup.tar using gzip&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;using-cron-the-schedule-automatic-jobs&quot;&gt;Using Cron the schedule automatic jobs&lt;/h2&gt;
+    &lt;hr /&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-schedule-an-automatic-backup-job-using-cron-which-backs-up-all-the-files-to-homebackupbackuptar&quot;&gt;a. Schedule an automatic backup job using cron which backs up all the files to /home/backup/backup.tar&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;basic-service-management&quot;&gt;Basic Service Management&lt;/h2&gt;
+    &lt;hr /&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-install-the-package-httpd&quot;&gt;a. Install the package: httpd&lt;/h3&gt;
+
+&lt;h3 id=&quot;b-start-the-httpd-service-using-systemctl-start-httpd&quot;&gt;b. Start the httpd service using: systemctl start httpd&lt;/h3&gt;
+
+&lt;h3 id=&quot;c-use-systemctl-to-observe-if-httpdservice-is-running&quot;&gt;c. Use systemctl to observe if httpd.service is running&lt;/h3&gt;
+
+&lt;h3 id=&quot;d-change-directory-to-etcsystemdsystem&quot;&gt;d. Change directory to /etc/systemd/system&lt;/h3&gt;
+
+&lt;h3 id=&quot;e-use-ls-to-view-the-targets-available&quot;&gt;e. Use ls to view the targets available&lt;/h3&gt;
+
+&lt;h3 id=&quot;f-use-systemctl-to-find-out-which-target-is-the-default&quot;&gt;f. Use systemctl to find out which target is the default&lt;/h3&gt;
+
+&lt;h3 id=&quot;g-change-directory-to-etcsystemdsystemmulti-usertargetwants&quot;&gt;g. Change directory to /etc/systemd/system/multi-user.target.wants&lt;/h3&gt;
+
+&lt;h3 id=&quot;h-stop-httpdservice-using-systemctl&quot;&gt;h. stop httpd.service using systemctl&lt;/h3&gt;
+
+&lt;h3 id=&quot;i-create-a-symlink-between-usrlibsystemdsystemhttpdservice-and-etcsystemdsystemmulti-usertargetwantshttpdservice&quot;&gt;i. Create a symlink between /usr/lib/systemd/system/httpd.service and /etc/systemd/system/multi-user.target.wants/httpd.service&lt;/h3&gt;
+
+&lt;h3 id=&quot;jrestart-the-computer&quot;&gt;j.Restart the computer&lt;/h3&gt;
+
+&lt;h3 id=&quot;h-is-httpd-running-after-restart-if-so-why&quot;&gt;h. is httpd running after restart? If so, why?&lt;/h3&gt;
+
+&lt;h3 id=&quot;i-disable-the-httpd-service-from-starting-automatically-at-system-startup-using-systemctl&quot;&gt;i. Disable the httpd service from starting automatically at system startup using systemctl&lt;/h3&gt;
+
+&lt;h3 id=&quot;j-does-the-link-at-etcsystemdsystemmulti-usertargetwantshttpdservice-still-exist-why-or-why-not&quot;&gt;j. Does the link at /etc/systemd/system/multi-user.target.wants/httpd.service still exist? why or why not?&lt;/h3&gt;
+
+&lt;hr /&gt;</content><summary type="html">LFCS Homework Tasks</summary></entry></feed>
